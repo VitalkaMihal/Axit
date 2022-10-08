@@ -1,0 +1,106 @@
+body .container-tab {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.nav__tab-one {
+    display: inline-block;
+    width: 203px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid solid hidden solid;
+    border-color: #C6CBCD;
+    border-radius: 5px 5px 0 0 ;
+    text-align: center;
+    line-height: 40px;
+}
+
+.nav__tab-next {
+    display: inline-block;
+    width: 184px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+hr {
+    border: none;
+    width: 967px;
+    color:#C6CBCD;
+    background-color:#C6CBCD;
+    height: 1px;
+    margin: 0 0 0 206px;
+}
+
+.container__liberty {
+    width: 1170px;
+    height: 500px;
+    border-width: 21px 2px 2px 2px;
+    border-style: hidden solid solid solid;
+    border-color: #C6CBCD;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.container__liberty__left {
+    width: 700px;
+    height: 500px;
+
+    vertical-align: top; 
+}
+.container__liberty__img {
+    width: 470px;
+    height: 500px;
+
+}
+
+.container__liberty__header {
+    width: 570px;
+    height: 124px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 0;
+    line-height: 124px;
+    text-align: left;
+}
+
+.container__liberty__text {
+    width: 570px;
+    height: 210px;
+    margin-left: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.container__liberty__button {
+    border: none;
+    width: 210px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #EC7979;
+    margin-left: 100px;
+    margin-top: 27px;
+}
+
+
