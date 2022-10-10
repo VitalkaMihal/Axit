@@ -11,14 +11,17 @@ body .container-tab {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    border-width: 2px 2px 2px 2px;
+    border-width: 1px 1px 1px 1px;
     border-style: solid solid hidden solid;
     border-color: #C6CBCD;
     border-radius: 5px 5px 0 0 ;
     text-align: center;
-    line-height: 40px;
+    line-height: 40px;    
 }
-
+.nav__tab-line {
+    border-bottom: 1px solid #C6CBCD;
+    margin-left: 203px;
+}
 .nav__tab-next {
     display: inline-block;
     width: 184px;
@@ -32,20 +35,11 @@ body .container-tab {
     line-height: 40px;
 }
 
-hr {
-    border: none;
-    width: 967px;
-    color:#C6CBCD;
-    background-color:#C6CBCD;
-    height: 1px;
-    margin: 0 0 0 206px;
-}
-
 .container__liberty {
     width: 1170px;
     height: 500px;
-    border-width: 21px 2px 2px 2px;
-    border-style: hidden solid solid solid;
+    border-width: 0px 1px 1px 1px;
+    border-style: none solid solid solid;
     border-color: #C6CBCD;
     display: flex;
     justify-content: space-between;
@@ -54,7 +48,6 @@ hr {
 .container__liberty__left {
     width: 700px;
     height: 500px;
-
     vertical-align: top; 
 }
 .container__liberty__img {
