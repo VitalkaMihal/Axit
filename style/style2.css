@@ -19,7 +19,7 @@ body .container-tab {
     line-height: 40px;    
 }
 .nav__tab-line {
-    border-bottom: 1px solid #C6CBCD;
+    border-top: 1px solid #C6CBCD;
     margin-left: 203px;
 }
 .nav__tab-next {
