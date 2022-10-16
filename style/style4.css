@@ -1,0 +1,105 @@
+.pricing {
+    width: 1508px;
+    height: 900px;
+    background-color: #F5F5F5;
+    text-align: center;
+    margin-top: 58px;
+    margin: 0 auto;
+}
+.pricing__h1 {
+    width: 1170px;
+    height: 150px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.pricing-h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    line-height: 150px;
+    margin-bottom: 0;
+}
+.pricing__hr {
+    border: none;
+    width: 170px;
+    color: #EC7979;
+    background-color: #EC7979;
+    height: 1px;
+    margin: 0 auto;
+}
+.pricing__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin: 40px 0 59px 0;
+}
+.container__pricing__card {
+    height: 530px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.pricing__card {
+    width: 370px;
+    height: 510px;
+    align-self: flex-end;
+}
+.pricing__card__head {
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing__card__price {
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.pricing__card__footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing__card__item {
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-item-two{
+    align-self: flex-start;
+}
