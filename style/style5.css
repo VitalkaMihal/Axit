@@ -1,0 +1,108 @@
+.container__customers{
+    width: 1508px;
+    height: 744px;
+    margin: 0 auto;
+}
+
+.customers {
+    width: 1170px;
+    height: 630px;
+    margin: 0 auto;
+}
+.customers__h1 {
+    width: 1170px;
+    height: 150px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.customers-h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    line-height: 150px;
+    margin-bottom: 0;
+}
+.customers__hr {
+    border: none;
+    width: 170px;
+    color: #EC7979;
+    background-color: #EC7979;
+    height: 1px;
+    margin: 0 auto;
+}
+.customers__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    margin: 40px 0 59px 0;
+}
+.container__customers__card {
+    width: 1170px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+}
+.customers__card {
+    width: 370px;
+    height: 336px;
+    position: relative;
+}
+.customers__card__text {
+    width: 370px;
+    height: 180px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #E2E2E2;
+    color: #86878B;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.ctomers__card__h2 {
+    width: 269px;
+    height: 54px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    left: 100px;
+    bottom: 25px;
+
+}
+.ctomers__card__img {
+    width: 70px;
+    margin-top: 66px;
+}
+.ctomers__card__info {
+    width: 270px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+}
+.tripple{
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #E2E2E2;
+    position: absolute;
+    bottom: 136px;
+    left: 70px;
+}
