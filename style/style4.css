@@ -76,6 +76,7 @@
     color: #FFFFFF;
 }
 .pricing__card__footer {
+    height: 50px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;

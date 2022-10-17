@@ -1,4 +1,4 @@
-.container__awesome {
+.container-awesome {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
@@ -6,12 +6,12 @@
     margin-top: 50px;
 }
 
-.container__awesome__h1 {
+.container-awesome__h1 {
     width: 1170px;
     height: 150px;
     margin-bottom: 0;
 }
-.container__awesome-h1 {
+.container-awesome-h1 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -20,7 +20,7 @@
     line-height: 150px;
     margin-bottom: 0;
 }
-.container__awesome__hr {
+.container-awesome__hr {
     border: none;
     width: 170px;
     color: #EC7979;
@@ -29,7 +29,7 @@
     margin: 0 auto;
 }
 
-.container__awesome__text {
+.container-awesome__text {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -39,18 +39,18 @@
     margin: 40px 0 0 0;
 }
 
-.container__awesome__card__list {
+.container-awesome__card__list {
     width: 370px;
     height: 383px;
     margin-top: 71px;
     display: inline-block;
 }
-.container__awesome__card {
+.container-awesome__card {
     display: flex;
     justify-content: space-between;
 }
 
-.container__awesome__header {
+.container-awesome__header {
     width: 370px;
     height: 100px;
     line-height: 100px;
@@ -61,7 +61,7 @@
     line-height: 100px;
     margin: 0;
 }
-.container__awesome__card__list .container__awesome__text {
+.container-awesome__card__list .container-awesome__text {
     color: black;
     margin-top: 8px;
 }

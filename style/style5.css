@@ -1,4 +1,4 @@
-.container__customers{
+.container-customers{
     height: 744px;
     margin: 0 auto;
 }
@@ -41,7 +41,7 @@
     text-align: center;
     margin: 40px 0 59px 0;
 }
-.container__customers__card {
+.container-customers__card {
     width: 1170px;
     height: 336px;
     display: flex;
