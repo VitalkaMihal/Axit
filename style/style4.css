@@ -48,6 +48,10 @@
     width: 370px;
     height: 510px;
     align-self: flex-end;
+    transition-duration: 1s;
+}
+.pricing__card:hover{
+    transform: scale(1.5);
 }
 .pricing__card__head {
     height: 60px;
