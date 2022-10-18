@@ -51,7 +51,7 @@
     transition-duration: 1s;
 }
 .pricing__card:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .pricing__card__head {
     height: 60px;
