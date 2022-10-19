@@ -110,3 +110,9 @@
 -moz-box-shadow: -8px 43px 4px 1px rgba(34, 60, 80, 0.33);
 box-shadow: -8px 43px 4px 1px rgba(34, 60, 80, 0.33);
 }
+.price-item-two:hower{
+    align-self: flex-start;
+    -webkit-box-shadow: -18px 43px 4px 1px rgba(34, 60, 80, 0.33);
+-moz-box-shadow: -18px 43px 4px 1px rgba(34, 60, 80, 0.33);
+box-shadow: -18px 43px 4px 1px rgba(34, 60, 80, 0.33);
+}
