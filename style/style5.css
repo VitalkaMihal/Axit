@@ -1,5 +1,5 @@
 .container-customers{
-    height: 744px;
+
     margin: 0 auto;
 }
 
@@ -7,6 +7,8 @@
     width: 1170px;
     height: 630px;
     margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 64px;
 }
 .customers__h1 {
     width: 1170px;
@@ -39,7 +41,7 @@
     line-height: 21px;
     color: #86878B;
     text-align: center;
-    margin: 40px 0 59px 0;
+    margin: 40px 0 83px 0;
 }
 .container-customers__card {
     width: 1170px;
