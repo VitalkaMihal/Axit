@@ -1,0 +1,81 @@
+.container-contact-us {
+    height: 722px;
+}
+.contact-us {
+    width: 1170px;
+    height: 622px;
+    margin: 50px auto 50px auto;
+}
+.contact-us__h2 {
+    margin: 0;
+    width: 1170px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #000;
+}
+.contact-us-line {
+    width: 170px;
+    border-top: 1px solid #EC7979;
+    margin: 0 auto;
+}
+.contact-us-text {
+    width: 1170px;
+    height: 21px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+    margin-bottom: 70px;
+}
+.contact-us__button {
+    width: 370px;
+    height: 58px;
+    border: none;
+    background-color: #EC7979;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+.contact-us__form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 231px;
+    justify-content: space-between;
+}
+.contact-us__form input {
+    width: 570px;
+    height: 53px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+.contact-us__form textarea {
+    width: 570px;
+    height: 230px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    resize: none;
+}

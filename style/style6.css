@@ -1,28 +1,31 @@
 .container-banner {
-    width: 1510px;
     height: 1026px;
     margin: 0 auto;
     background-image: url(../image/bgimage.png);
+    background-size: cover;
 }
 .banner {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 1510px;
     height: 1026px;
 }
 .banner__header {
-    width: 1510px;
+    height: 75px;
+    background-color: #000000;
+}
+.banner__header-content {
+    margin: 0 auto;
+    width: 1170px;
     height: 75px;
     display: flex;
     justify-content: space-between;
-    background-color: #000000;
+}
+.banner__header__nav {
+    
 }
 .banner__header__axit {
     display: flex;
     align-items: center;
-    margin-left: 115px;
-}
-.banner__header__nav {
-    margin-right: 170px;
+    margin-left: -52px;
 }
 
 .nav-features, .nav-About, .nav-Pricing, .nav-Reviews, .nav-Contact {
@@ -35,6 +38,7 @@
     font-size: 14px;
     display: inline-flex;
     align-items: center;
+    justify-content: space-around;
 }
 .banner__header__nav a {
     text-decoration: none;
@@ -43,7 +47,7 @@
 .banner-content {
     width: 1170px;
     height: 458px;
-    margin: 210px 170px 0 170px;
+    margin: 210px auto 0 auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 42px;
@@ -131,9 +135,11 @@
     bottom: 0px;
     border-radius: 0 0 10px 10px;
 }
-
+.banner-content-button {
+    width: 1170px;
+    margin: 0 auto;
+}
 .banner-content__button {
-    margin-left: 170px;
     width: 270px;
     height: 58px;
     font-family: 'Open Sans';

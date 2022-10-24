@@ -1,11 +1,10 @@
 .container-stylish {
-    width: 1510px;
+    margin: 0 auto;
     height: 442px;
     background-image: url(../image/bgImageStilish.jpg);
-    margin: 0 auto;
+    background-size: cover;
 }
 .stylish {
-    width: 1510px;
     height: 442px;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -13,6 +12,7 @@
     align-items: center;
 }
 .stylish-content {
+    margin: 0 auto;
     width: 1170px;
     height: 342px;
 }
