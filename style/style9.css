@@ -34,7 +34,7 @@
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 .contact-us__button {
     width: 370px;
@@ -47,14 +47,15 @@
     font-weight: 600;
     font-size: 18px;
     display: block;
-    margin: 50px auto 0 auto;
+    margin-top: 55px;
+    margin-left: -186px;
 }
 .contact-us__form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 231px;
-    justify-content: space-between;
+    height: 380px;
+
 }
 .contact-us__form input {
     width: 570px;
@@ -66,6 +67,7 @@
     font-weight: 400;
     font-size: 14px;
     color: #BDBDBD;
+    margin-bottom: 43px;
 }
 .contact-us__form textarea {
     width: 570px;
@@ -78,4 +80,5 @@
     font-size: 14px;
     color: #BDBDBD;
     resize: none;
+    margin-top: 21px;
 }
