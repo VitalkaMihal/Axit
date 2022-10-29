@@ -1,13 +1,12 @@
 .container-awesome {
-    width: 1170px;
-    padding: 0 15px;
+    max-width: 1170px;
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
 }
 
 .container-awesome__h1 {
-    width: 1170px;
+    max-width: 1170px;
     height: 150px;
     margin-bottom: 0;
 }
@@ -64,4 +63,92 @@
 .container-awesome__card__list .container-awesome__text {
     color: black;
     margin-top: 8px;
+}
+
+@media screen and (max-width: 1510px) {
+    .container-awesome {
+        max-width: 992px;
+    }
+    
+    .container-awesome__h1 {
+        max-width: 992px;
+        height: 120px;
+    }
+    .container-awesome-h1 {
+        font-size: 24px;
+        line-height: 120px;
+    }
+    .container-awesome__hr {
+        width: 142px;
+    }
+    
+    .container-awesome__text {
+        font-size: 14px;
+    }
+    
+    .container-awesome__card__list {
+        width: 305px;
+        height: 284px;
+        margin: 65px 0 0 0 ;
+    }
+    .container-awesome__card__list img {
+        width: 80px;
+    }
+    .container-awesome__header {
+        width: 305px;
+        height: 82px;
+        line-height: 82px;
+        font-size: 18px;
+        line-height: 82px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .container-awesome {
+        max-width: 900px;
+    }
+    
+    .container-awesome__h1 {
+        max-width: 900px;
+        height: 120px;
+    }
+    .container-awesome-h1 {
+        font-size: 18px;
+        line-height: 120px;
+    }
+    .container-awesome__hr {
+        width: 134px;
+    }
+    
+    .container-awesome__text {
+        font-size: 13px;
+    }
+    
+    .container-awesome__card__list {
+        width: 288px;
+        height: 270px;
+        display:block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .container-awesome__card__list img {
+        margin-bottom: -30px;
+    }
+    .container-awesome__card {
+        display: block;
+
+    }
+    
+    .container-awesome__header {
+        width: 288px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 18px;
+        margin: 0;
+    }
+    .container-awesome__card__list .container-awesome__text {
+        color: black;
+        margin-top: 8px;
+    }
+    
 }

@@ -2,13 +2,13 @@
     height: 722px;
 }
 .contact-us {
-    width: 1170px;
+    max-width: 1170px;
     height: 622px;
     margin: 50px auto 50px auto;
 }
 .contact-us__h2 {
     margin: 0;
-    width: 1170px;
+    max-width: 1170px;
     height: 150px;
     text-align: center;
     line-height: 150px;
@@ -25,7 +25,7 @@
     margin: 0 auto;
 }
 .contact-us-text {
-    width: 1170px;
+    max-width: 1170px;
     height: 21px;
     text-align: center;
     margin-top: 40px;
@@ -71,7 +71,7 @@
 }
 .contact-us__form textarea {
     width: 570px;
-    height: 230px;
+    height: 228px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     font-family: 'Open Sans';
@@ -81,4 +81,100 @@
     color: #BDBDBD;
     resize: none;
     margin-top: 21px;
+}
+
+@media screen and (max-width: 1510px) {
+    .container-contact-us {
+        height: 662px;
+    }
+    .contact-us {
+        max-width: 900px;
+        height: 562px;
+    }
+    .contact-us__h2 {
+        max-width: 900px;
+        height: 120px;
+        line-height: 120px;
+        font-size: 24px;
+    }
+    .contact-us-line {
+        width: 144px;
+    }
+    .contact-us-text {
+        max-width: 900px;
+        height: 16px;
+        font-size: 14px;
+        margin: 32px auto;
+    }
+    .contact-us__button {
+        width: 318px;
+        height: 58px;
+        font-size: 18px;
+        margin-top: 55px;
+        margin-left: -186px;
+    }
+    .contact-us__form {
+        height: 380px;
+    }
+    .contact-us__form input {
+        width: 430px;
+    }
+    .contact-us__form textarea {
+        width: 430px;
+        height: 228px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .container-contact-us {
+        height: 847px;
+    }
+    .contact-us {
+        max-width: 700px;
+        height: 807px;
+        margin: 0px auto 40px auto;
+    }
+    .contact-us__h2 {
+        margin: 0;
+        max-width: 700px;
+        height: 120px;
+        line-height: 20px;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-us-line {
+        width: 132px;
+    }
+    .contact-us-text {
+        max-width: 700px;
+        height: 32px;
+        text-align: center;
+        margin-top: 24px;
+        font-size: 14px;
+        color: #86878B;
+        margin-bottom: 40px;
+    }
+    .contact-us__button {
+        width: 288px;
+        height: 50px;
+        margin: 32px auto;
+    }
+    .contact-us__form {
+        flex-wrap: nowrap;
+        height: 600px;
+    
+    }
+    .contact-us__form input {
+        width: 288px;
+        height: 53px;
+        margin: 20px auto;
+    }
+    .contact-us__form textarea {
+        width: 288px;
+        height: 200px;
+        margin: 20px auto;
+    }
+    
 }

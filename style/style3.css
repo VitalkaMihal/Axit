@@ -28,3 +28,28 @@
 body {
     margin: 0;
 }
+
+@media screen and (max-width: 950px) {
+    .footer {
+        height: 164px;
+        background-color: black;
+        padding-top: 35px;
+        padding-bottom: 27px;
+        box-sizing: border-box;
+    }
+    
+    .footer__icon {
+        width: 290px;
+        height: 26px;
+        margin-bottom: 40px;
+
+    }
+    .footer__icon .icon {
+        height: 26px;
+    }
+    
+    .footer__text {
+        height: 16px;
+        font-size: 14px;    
+    }
+}

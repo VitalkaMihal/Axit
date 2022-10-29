@@ -1,17 +1,16 @@
 .container-customers{
-
     margin: 0 auto;
 }
 
 .customers {
-    width: 1170px;
+    max-width: 1170px;
     height: 630px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 64px;
 }
 .customers__h1 {
-    width: 1170px;
+    max-width: 1170px;
     height: 150px;
     margin: 0 auto;
     text-transform: uppercase;
@@ -44,7 +43,7 @@
     margin: 40px 0 83px 0;
 }
 .container-customers__card {
-    width: 1170px;
+    max-width: 1170px;
     height: 336px;
     display: flex;
     justify-content: space-between;
@@ -106,4 +105,144 @@
     position: absolute;
     bottom: 136px;
     left: 70px;
+}
+.logo-adaptive {
+    display: none;
+}
+
+@media screen and (max-width: 1510px) {
+    .customers {
+        max-width: 900px;
+        height: 570px;
+        margin-bottom: 50px;
+    }
+    .customers__h1 {
+        max-width: 900px;
+        height: 120px;
+    }
+    .customers-h1 {
+        font-size: 24px;
+        line-height: 120px;
+    }
+    .customers__hr {
+        width: 142px;
+    }
+    .customers__text {
+        font-size: 14px;
+        margin: 32px 0;
+    }
+    .container-customers__card {
+        max-width: 900px;
+        height: 307px;
+    }
+    .customers__card {
+        width: 290px;
+        height: 307px;
+    }
+    .customers__card__text {
+        width: 290px;
+        height: 180px;
+        font-size: 14px;
+    }
+    .ctomers__card__h2 {
+        width: 200px;
+        height: 36px;
+        font-size: 18px;
+        left: 83px;
+        bottom: 25px;
+    
+    }
+    .ctomers__card__img {
+        width: 63px;
+    }
+    .ctomers__card__info {
+        width: 200px;
+        height: 16px;
+        font-size: 14px;
+        position: absolute;
+        left: 83px;
+        bottom: 10px;
+    }
+    .tripple{
+        bottom: 107px;
+        left: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 950px) {
+    .customers {
+        max-width: 600px;
+        height: 590px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .customers__h1 {
+        max-width: 600px;
+        height: 120px;
+    }
+    .customers-h1 {
+        height: 120px;
+        line-height: 20px;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .customers__hr {
+        width: 134px;
+    }
+    .customers__text {
+        font-size: 14px;
+        margin: 24px 0;
+    }
+    .container-customers__card {
+        max-width: 900px;
+        height: 310px;
+    }
+    .customers__card {
+        width: 288px;
+        height: 310px;
+        margin: 0 auto;
+    }
+    .customers__card-3, .customers__card-1 {
+        display: none;
+    }
+    .customers__card__text {
+        width: 288px;
+        height: 180px;
+        font-size: 14px;
+    }
+    .ctomers__card__h2 {
+        width: 200px;
+        height: 36px;
+        font-size: 14px;
+        left: 80px;
+        bottom: 25px;
+    
+    }
+    .ctomers__card__img {
+        width: 57px;
+        margin-top: 62px;
+    }
+    .ctomers__card__info {
+        width: 200px;
+        height: 21px;
+        font-size: 13px;
+        left: 80px;
+        bottom: 10px;
+    }
+    .tripple{
+        bottom: 109px;
+        left: 40px;
+    }
+    .container-logo-adaptive {
+        margin: 20px auto;
+        width: 180px;
+    }
+    .logo-adaptive {
+        display: inline-flex;
+        width: 55px;
+        height: 10px;
+    }
 }

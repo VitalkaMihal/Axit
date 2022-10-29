@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
 .pricing__h1 {
-    width: 1170px;
+    max-width: 1170px;
     height: 150px;
     margin: 0 auto;
     text-transform: uppercase;
@@ -39,7 +39,7 @@
 }
 .container__pricing__card {
     height: 530px;
-    width: 1170px;
+    max-width: 1170px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -111,3 +111,91 @@
 box-shadow: -8px 43px 4px 1px rgba(34, 60, 80, 0.33);
 }
 
+@media screen and (max-width: 1510px) {
+    .pricing {
+        height: 770px;
+    }
+    .pricing__h1 {
+        max-width: 950px;
+        height: 120px;
+    }
+    .pricing-h1 {
+        font-size: 24px;
+        line-height: 120px;
+    }
+    .pricing__hr {
+        width: 143px;
+    }
+    .pricing__text {
+        font-size: 14px;
+        margin: 32px 0;
+    }
+    .container__pricing__card {
+        height: 470px;
+        max-width: 950px;
+        margin-bottom: 100px;
+    }
+    .pricing__card {
+        width: 300px;
+        height: 452px;
+    }
+    .pricing__card__head {
+        height: 53px;
+    }
+    .pricing__card__price {
+        height: 88px;
+    }
+    .pricing__card__footer {
+        height: 44px;
+    }
+    .pricing__card__item {
+        height: 44px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .pricing {
+        height: 1600px;
+    }
+    .pricing__h1 {
+        max-width: 288px;
+        height: 120px;
+    }
+    .pricing-h1 {
+        font-size: 24px;
+        line-height: 120px;
+    }
+    .pricing__hr {
+        width: 134px;
+    }
+    .pricing__text {
+        font-size: 14px;
+    }
+    .container__pricing__card {
+        height: 1350px;
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing__card {
+        margin: 20px auto;
+        width: 288px;
+        height: 400px;
+    }
+    .pricing__card__head {
+        height: 44px;
+        font-size: 18px;
+    }
+    .pricing__card__price {
+        font-size: 24px;
+        height: 75px;
+    }
+    .pricing__card__footer {
+        height: 35px;
+        font-size: 14px;
+    }
+    .pricing__card__item {
+        height: 35px;
+        font-size: 14px;
+    }
+}

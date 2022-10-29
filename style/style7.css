@@ -4,19 +4,19 @@
 }
 
 .social-media {
-    width: 1170px;
-    height: 140px;
+    max-width: 1170px;
+    max-height: 140px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .social-media-text {
-    height: 140px;
+    max-height: 140px;
 }
 .social-media-text__h3 {
-    width: 470px;
-    height: 60px;
+    max-width: 470px;
+    max-height: 60px;
     margin-top: 2px;
     margin-bottom: 18px;
     font-family: 'Open Sans';
@@ -27,13 +27,14 @@
     line-height: 60px;
 }
 .social-media-text__p {
-    width: 470px;
-    height: 42px;
+    max-width: 470px;
+    max-height: 42px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
+    margin-bottom: 13px;
 }
 .social-media-icon {
     color: #CCCCCC;
@@ -42,4 +43,66 @@
     margin-left: 30px;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1510px) {
+    
+    .social-media {
+        max-width: 1024px;
+        max-height: 105px;
+        padding: 0 15px 0 15px;
+    }
+    .social-media-text {
+        max-height: 105px;
+    }
+    .social-media-text__h3 {
+        max-width: 402px;
+        max-height: 45px;
+        font-size: 18px;
+        line-height: 45px;
+    }
+    .social-media-text__p {
+        max-width: 402px;
+        max-height: 32px;
+        font-size: 14px;
+    }
+    .social-media-icon {
+        font-size: 50px;
+        max-width: 490px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .social-media {
+        max-width: 950px;
+        max-height: 240px;
+        margin: 0 auto;
+        padding: 0 10px 0 10px;
+        flex-direction: column;
+    }
+    .social-media-text {
+        max-height: 240px;
+    }
+    .social-media-text__h3 {
+        max-width: 287px;
+        max-height: 45px;
+        font-size: 18px;
+        line-height: 45px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .social-media-text__p {
+        max-width: 271px;
+        max-height: 48px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .social-media-icon {
+        font-size: 26px;
+        max-width: 280px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 44px;
+    }
 }
