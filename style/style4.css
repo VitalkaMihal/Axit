@@ -198,4 +198,7 @@ box-shadow: -8px 43px 4px 1px rgba(34, 60, 80, 0.33);
         height: 35px;
         font-size: 14px;
     }
+    .price-item-two{
+        box-shadow: none;
+    }
 }
